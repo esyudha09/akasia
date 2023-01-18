@@ -1,0 +1,64 @@
+<html>
+<head>
+</head>
+<body>
+	<div class='center' >
+		<ul id='Teslist'>
+		  <li>List 1</li>
+		  <li>List 2</li>
+		  <li>List 3</li>
+		  <li>List 4</li>
+		  <li>List 5</li>
+		</ul>
+	</div>
+</body>
+</html>
+
+
+<style>
+.boldList{
+font-weight : bold;
+}
+
+.normalList{
+font-weight : normal;
+}
+
+.highlight{
+background-color : yellow;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+<script>
+
+	var a = document.getElementById('Teslist').getElementsByTagName('li');
+    
+	  for(var i = 0; i < a.length; i++){
+	   
+		a[i].onclick = function(){			
+			for(var i = 0; i < a.length; i++){
+				a[i].classList.remove("boldList");		
+			}
+			this.classList.add("boldList");		
+			alert(this.innerHTML);			    
+      }
+	  
+	  a[i].onmouseover = function(){	
+		for(var i = 0; i < a.length; i++){
+				a[i].classList.remove("highlight");		
+			}
+			this.classList.add("highlight");		
+				
+	  }
+	}
+	
+
+</script>
+

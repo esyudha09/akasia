@@ -1,0 +1,8 @@
+E:\@work\akasia-tes\bin\Debug\akasia-tes.exe.config
+E:\@work\akasia-tes\bin\Debug\akasia-tes.exe
+E:\@work\akasia-tes\bin\Debug\akasia-tes.pdb
+E:\@work\akasia-tes\obj\Debug\akasia-tes.csproj.AssemblyReference.cache
+E:\@work\akasia-tes\obj\Debug\akasia-tes.csproj.SuggestedBindingRedirects.cache
+E:\@work\akasia-tes\obj\Debug\akasia-tes.csproj.CoreCompileInputs.cache
+E:\@work\akasia-tes\obj\Debug\akasia-tes.exe
+E:\@work\akasia-tes\obj\Debug\akasia-tes.pdb
